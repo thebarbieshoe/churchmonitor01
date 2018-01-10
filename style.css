@@ -23,6 +23,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+blockquote {
+	margin: 2em;
+	padding: 0 1em;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -56,12 +60,77 @@ body{
 }
 .mySlidez{
 }
+.page_cont{
+	width: 100%;
+	height: 100%;
+}
 .time{
 	color: black;
-	ont-size: 16px;
+	font-size: 16px;
 	font-size: 1em;
 	line-height: 1.75;
 	font-family: 'OpenSans', Arial, sans-serif;
 	letter-spacing: -0.01em;
 	margin: 1em auto;
+}
+.bottom_cont{
+	color: black;
+	font-size: 16px;
+	font-size: 1em;
+	line-height: 1.75;
+	font-family: 'OpenSans', Arial, sans-serif;
+	letter-spacing: -0.01em;
+	margin: 1em auto;
+	height: 30%;
+	background-color: #236549;
+}
+.news_cont{
+	height: 50%;
+	color: black;
+	font-size: 16px;
+	font-size: 1em;
+	line-height: 1.75;
+	font-family: 'OpenSans', Arial, sans-serif;
+	letter-spacing: -0.01em;
+	margin: 0;
+	background-color: #A9CFDC;
+}
+/* Create three equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+.column2 {
+    float: left;
+    width: 30%;
+    height:100%;
+}
+.columnC{
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    height:100%;
+}
+/* Clear floats after the columns */
+.rowC:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.welcome_cont{
+	height: 20%;
+	color: #CFDAB1;
+	background-color: #00553E;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: .01em;
+	margin: 0;
+	text-align: center;
 }
